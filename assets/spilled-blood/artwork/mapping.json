@@ -1,0 +1,857 @@
+{
+  "coordinate_convention": "source x right / y down, origin top-left; bbox right/bottom exclusive; world u east / v south / h up; PNG top-left origin",
+  "panels": [
+    {
+      "id": "south-great-gable",
+      "source": "south2023",
+      "plane_v": 15.4,
+      "width": 512,
+      "polygon": [
+        [
+          1419,
+          2312
+        ],
+        [
+          1455,
+          2328
+        ],
+        [
+          1498,
+          2352
+        ],
+        [
+          1540,
+          2380
+        ],
+        [
+          1567,
+          2408
+        ],
+        [
+          1582,
+          2433
+        ],
+        [
+          1584,
+          2454
+        ],
+        [
+          1574,
+          2478
+        ],
+        [
+          1290,
+          2474
+        ],
+        [
+          1271,
+          2466
+        ],
+        [
+          1258,
+          2449
+        ],
+        [
+          1256,
+          2428
+        ],
+        [
+          1265,
+          2407
+        ],
+        [
+          1284,
+          2387
+        ],
+        [
+          1317,
+          2363
+        ],
+        [
+          1367,
+          2335
+        ]
+      ],
+      "note": "Cable crossing preserved. Camera-plane rectification; plane and metric bounds inherit the existing solve, not a survey.",
+      "source_local_file": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/south2023.jpg",
+      "source_size": [
+        2627,
+        4070
+      ],
+      "source_sha256": "fc1ffa3bb579460f4f5f88396caf5a687550058d4aa506f94ae223116e22f8be",
+      "source_crop_bbox_xyxy": [
+        1256,
+        2312,
+        1585,
+        2479
+      ],
+      "credit": {
+        "file": "Church_of_Saviour_on_Blood_View_from_south_2023.jpg",
+        "author": "Dmitry Ivanov",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "original_size": [
+          2627,
+          4070
+        ],
+        "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Saviour_on_Blood_View_from_south_2023.jpg"
+      },
+      "original_pixel_scale_xy": [
+        1.0,
+        1.0
+      ],
+      "method": "solved camera remap to vertical plane",
+      "plane_bounds_u_h": [
+        -5.01525599524328,
+        4.148274673886959,
+        24.351487141071924,
+        28.935764729683132
+      ],
+      "source_quad_TL_TR_BR_BL": [
+        [
+          1255.1794009856005,
+          2310.742506064871
+        ],
+        [
+          1582.4964002236245,
+          2313.2069571184825
+        ],
+        [
+          1584.2533440718125,
+          2478.044942999344
+        ],
+        [
+          1256.340698948103,
+          2476.45777551047
+        ]
+      ],
+      "camera_params": [
+        1.4368768982526072,
+        -0.11365980960174087,
+        0.11696059172551924,
+        -43.10221820117603,
+        -278.212712632229,
+        1.7444658180923216,
+        9683.1915413868,
+        -0.012984513265053278
+      ],
+      "observation_size": [
+        2627,
+        4070
+      ],
+      "solve_sha256": "ee3ac815918cb27c40cffe1d59d743c9e64a4bf7e7d2fd120de742321b4ffca4",
+      "observations_sha256": "a504a7b0a3030bb7564e8854d324c551b68f76f71bc56b13b4d492077697cadb",
+      "target_inner_xyxy": [
+        2,
+        2,
+        513,
+        257
+      ],
+      "target_world_TL_TR_BR_BL": [
+        [
+          -5.01525599524328,
+          15.4,
+          28.935764729683132
+        ],
+        [
+          4.148274673886959,
+          15.4,
+          28.935764729683132
+        ],
+        [
+          4.148274673886959,
+          15.4,
+          24.351487141071924
+        ],
+        [
+          -5.01525599524328,
+          15.4,
+          24.351487141071924
+        ]
+      ],
+      "output": "south-great-gable.png",
+      "output_size": [
+        516,
+        260
+      ],
+      "output_sha256": "e53b7cc3422dc4eb963c296fcc2b416c98109ee0947f3907476af320bfea5407",
+      "modifications": "Cropped; manually masked at artwork boundary; transparent padding; gables camera-rectified and bilinearly resampled; original colour and obstructions retained. No inpainting or generated imagery."
+    },
+    {
+      "id": "north-great-gable",
+      "source": "north2",
+      "plane_v": -15.4,
+      "width": 640,
+      "polygon": [
+        [
+          1850,
+          1372
+        ],
+        [
+          1895,
+          1387
+        ],
+        [
+          1953,
+          1412
+        ],
+        [
+          2018,
+          1446
+        ],
+        [
+          2066,
+          1480
+        ],
+        [
+          2108,
+          1519
+        ],
+        [
+          2133,
+          1551
+        ],
+        [
+          2134,
+          1570
+        ],
+        [
+          2125,
+          1586
+        ],
+        [
+          1590,
+          1575
+        ],
+        [
+          1578,
+          1558
+        ],
+        [
+          1577,
+          1538
+        ],
+        [
+          1588,
+          1515
+        ],
+        [
+          1611,
+          1490
+        ],
+        [
+          1651,
+          1460
+        ],
+        [
+          1710,
+          1425
+        ],
+        [
+          1780,
+          1394
+        ]
+      ],
+      "note": "Backlit blue cast and limited detail preserved. Camera-plane rectification.",
+      "source_local_file": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/north2.jpg",
+      "source_size": [
+        3840,
+        2880
+      ],
+      "source_sha256": "4c8fc0c2f0e749798eb3c866a8c643afbd9d05cd3ef9de76d9a474ae67bcd47f",
+      "source_crop_bbox_xyxy": [
+        1577,
+        1372,
+        2135,
+        1587
+      ],
+      "credit": {
+        "file": "St._Petersburg_-_Church_of_the_Savior_on_Blood_North_view_-_Церковь_Спаса_на_Крови_Вид_на_север_-_panoramio.jpg",
+        "author": "giggel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "original_size": [
+          4320,
+          3240
+        ],
+        "source_url": "https://commons.wikimedia.org/wiki/File:St._Petersburg_-_Church_of_the_Savior_on_Blood_North_view_-_Церковь_Спаса_на_Крови_Вид_на_север_-_panoramio.jpg"
+      },
+      "original_pixel_scale_xy": [
+        1.125,
+        1.125
+      ],
+      "method": "solved camera remap to vertical plane",
+      "plane_bounds_u_h": [
+        -4.936150540888953,
+        4.12766333395744,
+        24.656465040856087,
+        28.691832566207843
+      ],
+      "source_quad_TL_TR_BR_BL": [
+        [
+          1586.0019765229513,
+          1367.1255519529068
+        ],
+        [
+          2121.0761302446076,
+          1377.0443314440327
+        ],
+        [
+          2135.402413953474,
+          1586.1380613084802
+        ],
+        [
+          1574.8771065664755,
+          1578.5197758930012
+        ]
+      ],
+      "camera_params": [
+        0.07524517285035395,
+        1.5167965301279231,
+        -2.6965738680154994,
+        1.4828508982463147,
+        54.0667077428436,
+        3.8432106075384422,
+        2716.8595253521853,
+        -0.01618493983124253
+      ],
+      "observation_size": [
+        3840,
+        2880
+      ],
+      "solve_sha256": "ee3ac815918cb27c40cffe1d59d743c9e64a4bf7e7d2fd120de742321b4ffca4",
+      "observations_sha256": "a504a7b0a3030bb7564e8854d324c551b68f76f71bc56b13b4d492077697cadb",
+      "target_inner_xyxy": [
+        2,
+        2,
+        641,
+        286
+      ],
+      "target_world_TL_TR_BR_BL": [
+        [
+          4.12766333395744,
+          -15.4,
+          28.691832566207843
+        ],
+        [
+          -4.936150540888953,
+          -15.4,
+          28.691832566207843
+        ],
+        [
+          -4.936150540888953,
+          -15.4,
+          24.656465040856087
+        ],
+        [
+          4.12766333395744,
+          -15.4,
+          24.656465040856087
+        ]
+      ],
+      "output": "north-great-gable.png",
+      "output_size": [
+        644,
+        289
+      ],
+      "output_sha256": "0c0ecebd15ec4437431bc84eda6dcadb39118eb133b4aa6e7f30b59c3772994b",
+      "modifications": "Cropped; manually masked at artwork boundary; transparent padding; gables camera-rectified and bilinearly resampled; original colour and obstructions retained. No inpainting or generated imagery."
+    },
+    {
+      "id": "north-porch-front",
+      "source": "north2",
+      "polygon": [
+        [
+          3556,
+          2438
+        ],
+        [
+          3710,
+          2603
+        ],
+        [
+          3722,
+          2630
+        ],
+        [
+          3731,
+          2668
+        ],
+        [
+          3688,
+          2651
+        ],
+        [
+          3638,
+          2645
+        ],
+        [
+          3588,
+          2651
+        ],
+        [
+          3528,
+          2673
+        ],
+        [
+          3517,
+          2634
+        ],
+        [
+          3515,
+          2610
+        ]
+      ],
+      "note": "Oblique, soft porch front panel; unrectified source crop. Low-resolution reference only; do not infer metric aspect from this crop.",
+      "source_local_file": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/north2.jpg",
+      "source_size": [
+        3840,
+        2880
+      ],
+      "source_sha256": "4c8fc0c2f0e749798eb3c866a8c643afbd9d05cd3ef9de76d9a474ae67bcd47f",
+      "source_crop_bbox_xyxy": [
+        3515,
+        2438,
+        3732,
+        2674
+      ],
+      "credit": {
+        "file": "St._Petersburg_-_Church_of_the_Savior_on_Blood_North_view_-_Церковь_Спаса_на_Крови_Вид_на_север_-_panoramio.jpg",
+        "author": "giggel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "original_size": [
+          4320,
+          3240
+        ],
+        "source_url": "https://commons.wikimedia.org/wiki/File:St._Petersburg_-_Church_of_the_Savior_on_Blood_North_view_-_Церковь_Спаса_на_Крови_Вид_на_север_-_panoramio.jpg"
+      },
+      "original_pixel_scale_xy": [
+        1.125,
+        1.125
+      ],
+      "method": "masked source crop; no perspective correction",
+      "target_inner_xyxy": [
+        2,
+        2,
+        218,
+        237
+      ],
+      "output": "north-porch-front.png",
+      "output_size": [
+        221,
+        240
+      ],
+      "output_sha256": "9c3475e0f5790ec8a0ed50ce1ea59b1b4ab9026d297d5659889845a123980fb5",
+      "modifications": "Cropped; manually masked at artwork boundary; transparent padding; gables camera-rectified and bilinearly resampled; original colour and obstructions retained. No inpainting or generated imagery."
+    },
+    {
+      "id": "south-porch-front",
+      "source": "south-gable-detail",
+      "note": "Same south-porch panel as the original 94px crop. Commons title/caption misidentifies this photograph as the large southern gable; visible scene is the small south porch. Source pixels, not title, establish placement.",
+      "polygon": [
+        [
+          3815,
+          3109
+        ],
+        [
+          4502,
+          3931
+        ],
+        [
+          4520,
+          4311
+        ],
+        [
+          4336,
+          4237
+        ],
+        [
+          4152,
+          4182
+        ],
+        [
+          3974,
+          4152
+        ],
+        [
+          3809,
+          4139
+        ],
+        [
+          3637,
+          4158
+        ],
+        [
+          3465,
+          4195
+        ],
+        [
+          3281,
+          4256
+        ],
+        [
+          3128,
+          4323
+        ],
+        [
+          3122,
+          3937
+        ]
+      ],
+      "source_crop_bbox_xyxy": [
+        3122,
+        3109,
+        4521,
+        4324
+      ],
+      "source_local_file": "/private/tmp/sb-artwork-hires/south-gable-detail.jpg",
+      "source_sha256": "209404b04c36193530270d59f3dab1ff0db0ef141026dd698ff749a3c102cddd",
+      "source_size": [
+        7360,
+        4912
+      ],
+      "original_pixel_scale_xy": [
+        1,
+        1
+      ],
+      "method": "masked original-resolution crop and area downsampling; no perspective correction",
+      "source_to_output_affine": [
+        [
+          0.365975696926376,
+          0,
+          -1140.576125804146
+        ],
+        [
+          0,
+          0.3662551440329218,
+          -1136.687242798354
+        ]
+      ],
+      "output": "south-porch-front.png",
+      "output_size": [
+        516,
+        449
+      ],
+      "target_inner_xyxy": [
+        2,
+        2,
+        513,
+        446
+      ],
+      "output_sha256": "0e3e022880af3b771f83437b46154864b2bf489475bff0a72df9f2ff3226024c",
+      "modifications": "Manually masked actual photographed mosaic; area-downsampled from original source; transparent border added; north front approximately affine de-skewed. No upscaling, colour correction, inpainting or generated content.",
+      "credit": {
+        "file": "Cathedral_Of_The_Resurrection._Mosaic_panel_of_the_pedimented_kokoshnik_of_the_southern_facade.jpg",
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_Of_The_Resurrection._Mosaic_panel_of_the_pedimented_kokoshnik_of_the_southern_facade.jpg",
+        "original_size": [
+          7360,
+          4912
+        ]
+      }
+    },
+    {
+      "id": "north-west-porch",
+      "source": "northwest-crucifixion",
+      "note": "Crucifixion on the west-facing tympanum of the north-west porch. Near-frontal photograph; masked and downsampled, no perspective correction. Distinct scene from north-facing Christ carrying the cross.",
+      "polygon": [
+        [
+          1446,
+          1392
+        ],
+        [
+          2561,
+          2801
+        ],
+        [
+          2577,
+          3409
+        ],
+        [
+          2406,
+          3311
+        ],
+        [
+          2230,
+          3230
+        ],
+        [
+          2042,
+          3168
+        ],
+        [
+          1838,
+          3119
+        ],
+        [
+          1638,
+          3099
+        ],
+        [
+          1438,
+          3087
+        ],
+        [
+          1233,
+          3095
+        ],
+        [
+          1033,
+          3119
+        ],
+        [
+          825,
+          3164
+        ],
+        [
+          613,
+          3230
+        ],
+        [
+          441,
+          3307
+        ],
+        [
+          286,
+          3397
+        ],
+        [
+          310,
+          2781
+        ]
+      ],
+      "source_crop_bbox_xyxy": [
+        286,
+        1392,
+        2578,
+        3410
+      ],
+      "source_local_file": "/private/tmp/sb-artwork-hires/northwest-crucifixion.jpg",
+      "source_sha256": "c0c67de5e26a0ba12420fbaa9423f4984b50ce97526627987140c7723bf84d35",
+      "source_size": [
+        2859,
+        4083
+      ],
+      "original_pixel_scale_xy": [
+        1,
+        1
+      ],
+      "method": "masked original-resolution crop and area downsampling; no perspective correction",
+      "source_to_output_affine": [
+        [
+          0.22338568935427575,
+          0,
+          -61.88830715532286
+        ],
+        [
+          0,
+          0.22348860257680872,
+          -309.09613478691773
+        ]
+      ],
+      "output": "north-west-porch.png",
+      "output_size": [
+        516,
+        455
+      ],
+      "target_inner_xyxy": [
+        2,
+        2,
+        513,
+        452
+      ],
+      "output_sha256": "da423062231f17727f7e461f2258fbef61acb9061ae46e562acdbdffd8d952f6",
+      "modifications": "Manually masked actual photographed mosaic; area-downsampled from original source; transparent border added; north front approximately affine de-skewed. No upscaling, colour correction, inpainting or generated content.",
+      "credit": {
+        "file": "Mosaic_panel_Crucifixion_of_the_North-Western_tympanum.jpg",
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mosaic_panel_Crucifixion_of_the_North-Western_tympanum.jpg",
+        "original_size": [
+          2859,
+          4083
+        ]
+      }
+    },
+    {
+      "id": "improvednorth-porch-front",
+      "source": "porch-pair",
+      "note": "North-facing Christ carrying the cross, matching north2 scene. Approximate affine de-skew using apex and two lower corners, 512x450 canvas. Aspect is a visual estimate, not calibrated metric rectification. Projecting right-hand cornice occludes a small patch; mask excludes it and does not reconstruct artwork.",
+      "polygon": [
+        [
+          1674,
+          2781
+        ],
+        [
+          2015,
+          3453
+        ],
+        [
+          2014,
+          3539
+        ],
+        [
+          1910,
+          3562
+        ],
+        [
+          1917,
+          3612
+        ],
+        [
+          1935,
+          3618
+        ],
+        [
+          1935,
+          3694
+        ],
+        [
+          1964,
+          3700
+        ],
+        [
+          1977,
+          3768
+        ],
+        [
+          1936,
+          3744
+        ],
+        [
+          1886,
+          3717
+        ],
+        [
+          1828,
+          3698
+        ],
+        [
+          1768,
+          3684
+        ],
+        [
+          1707,
+          3680
+        ],
+        [
+          1642,
+          3686
+        ],
+        [
+          1572,
+          3703
+        ],
+        [
+          1502,
+          3731
+        ],
+        [
+          1429,
+          3770
+        ],
+        [
+          1362,
+          3815
+        ],
+        [
+          1298,
+          3870
+        ],
+        [
+          1250,
+          3910
+        ],
+        [
+          1268,
+          3590
+        ]
+      ],
+      "source_crop_bbox_xyxy": [
+        1250,
+        2781,
+        2016,
+        3911
+      ],
+      "source_local_file": "/private/tmp/sb-artwork-hires/porch-pair.jpg",
+      "source_sha256": "75bab4b3ac6123e695c41b1aafac5927a448f97dac9f9d5a5ee446e6596d6b07",
+      "source_size": [
+        7360,
+        4912
+      ],
+      "original_pixel_scale_xy": [
+        1,
+        1
+      ],
+      "method": "approximate affine de-skew; not metric",
+      "source_anchor_points": [
+        [
+          1674.0,
+          2781.0
+        ],
+        [
+          1250.5,
+          3909.75
+        ],
+        [
+          2003.0,
+          3792.5
+        ]
+      ],
+      "target_anchor_points": [
+        [
+          257.5,
+          2.0
+        ],
+        [
+          2.0,
+          451.0
+        ],
+        [
+          513.0,
+          451.0
+        ]
+      ],
+      "source_to_output_affine": [
+        [
+          0.6837739721830771,
+          0.030191164757061503,
+          -971.0992586238591
+        ],
+        [
+          0.06582886202701155,
+          0.4224837413673882,
+          -1283.124799775924
+        ]
+      ],
+      "output": "improvednorth-porch-front.png",
+      "output_size": [
+        516,
+        454
+      ],
+      "target_inner_xyxy": [
+        2,
+        2,
+        513,
+        451
+      ],
+      "output_sha256": "c6e0fd74b042ae4e7faac4e1a7e47cd822d9141a4ae8d79eb63777394efd975f",
+      "modifications": "Manually masked actual photographed mosaic; area-downsampled from original source; transparent border added; north front approximately affine de-skewed. No upscaling, colour correction, inpainting or generated content.",
+      "credit": {
+        "file": "Northern_and_North-Western_tympana_of_the_porches.jpg",
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northern_and_North-Western_tympana_of_the_porches.jpg",
+        "original_size": [
+          7360,
+          4912
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Church of the Savior on Spilled Blood — Explore</title>
+<link rel="stylesheet" href="src/visitor.css" />
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+  "rapier": "https://cdn.jsdelivr.net/npm/@dimforge/rapier3d-compat@0.14.0/rapier.es.js"
+} }
+</script>
+<style>label:has(#interior),label:has(#grime),label:has(#normals){display:none} @media(max-width:700px){#stats{display:none} #stats.mobile-open{display:block;z-index:9;left:12px;top:65px;width:calc(100vw - 48px);max-height:70vh;overflow:auto} #ui{max-width:190px;max-height:55vh;overflow:auto}}</style>
+<style>#desktop-guide,#stick,#height-controls,#stop-nav{display:none!important}#orbit-bar{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);display:flex;gap:8px;align-items:center;padding:8px;border:1px solid #eee4;border-radius:40px;background:#152c34e8;white-space:nowrap}#orbit-bar button{border:0;border-radius:24px;background:transparent;padding:12px 18px}#orbit-bar button.active{background:#eee9d5;color:#18353c}#orbit-status{position:fixed;bottom:94px;width:100%;text-align:center;font-size:11px;color:#e9e9df}#record-film{display:none}body.recording #record-film{display:block;position:fixed;top:100px;right:20px}#view-switch{position:fixed;top:145px;left:50%;transform:translateX(-50%);display:flex;padding:4px;border-radius:25px;background:#152c34df;border:1px solid #eee4}#view-switch button{border:0;border-radius:22px;padding:10px 18px;background:transparent}#view-switch button.active{background:#eee9d5;color:#18353c}</style><style>.simple-head{gap:16px;align-items:flex-start}.simple-head>div{min-width:0;grid-template-columns:26px auto;column-gap:8px}.simple-head strong{font-size:23px;line-height:1.2}.simple-head .small-cross{font-size:28px;grid-row:auto}.simple-head button{flex-shrink:0}@media(max-width:700px){.simple-head{inset:18px 14px auto;gap:10px}.simple-head>div{grid-template-columns:18px auto;column-gap:6px}.simple-head .small-cross{font-size:22px}.simple-head strong{font-size:clamp(15px,4.2vw,21px);letter-spacing:0}.simple-head button{padding:9px;font-size:10px}#help{top:102px}#view-switch{top:151px}}</style></head>
+<body data-site="sb-scene" data-visitor="true" data-orbit-tour="true">
+<canvas id="c" aria-label="Interactive exterior of the Church of the Saviour on Spilled Blood"></canvas>
+<header class="simple-head"><div><span class="small-cross">✧</span><strong>Church of the Savior<br>on Spilled Blood</strong></div><button id="reset" aria-label="Return to whole building">Reset view ↺</button></header>
+<div id="help">Drag to look around · Scroll to move closer</div>
+<aside id="desktop-guide" aria-label="Keyboard controls"><strong>Move freely</strong><div><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span><span>Move</span></div><div><span><kbd>Space</kbd> / <kbd>E</kbd></span><span>Up</span></div><div><span><kbd>Q</kbd></span><span>Down</span></div><div><span><kbd>Shift</kbd> + move</span><span>Faster</span></div></aside>
+<nav id="stop-nav" aria-label="Building viewpoints"><button id="back" aria-label="Previous viewpoint">←</button><div><small id="count">01 / 06</small><span id="place">Whole building</span></div><button id="next">Next <span>→</span></button></nav>
+<div id="stick" role="group" aria-label="Drag to move"><span class="stick-arrows" aria-hidden="true">↑<br>←　→<br>↓</span><button id="stick-knob" aria-label="Drag in any direction to move"></button></div>
+<div id="height-controls"><button data-flight="KeyE" aria-label="Move up">↑<small>Up</small></button><button data-flight="KeyQ" aria-label="Move down">↓<small>Down</small></button></div>
+<nav id="view-switch" aria-label="View height"><button id="aerial-view" class="active">Above</button><button id="street-view">Street view</button></nav><div id="orbit-status">A slow circuit around the exterior</div><nav id="orbit-bar" aria-label="Camera controls"><button id="play-orbit" class="active">Pause</button><button id="rotate-orbit" class="active">Rotate</button></nav><div id="loading"><div class="box"><span class="small-cross">✧</span><div class="title">Opening the building…</div><div class="bar"><div id="loadbar"></div></div><div id="loadtext">Loading</div></div></div>
+<div hidden id="legacy"><span id="comparison-state"></span><div id="stats" class="panel">
+  <button type="button" aria-label="Close performance panel" style="float:right" onclick="document.getElementById('stats').style.display='none'">×</button>
+  <div class="head">Performance</div>
+  <table id="statsTable"></table>
+  <div class="head sub">Building parts (active level)</div>
+  <div class="scroll"><table id="partsTable"></table></div>
+  <div class="head sub">Assets</div>
+  <div class="scroll"><table id="assetsTable"></table></div>
+</div>
+
+<div id="ui" class="panel"><details id="controls" open><summary style="cursor:pointer;font-size:14px;margin-bottom:8px">View controls</summary>
+  <button id="toggleStats" type="button" onclick="const p=document.getElementById('stats');const open=getComputedStyle(p).display==='none';p.classList.toggle('mobile-open',open);p.style.display=open?'block':'none'">Performance panel</button>
+  <div class="head">Quality</div>
+  <div class="seg" id="quality">
+    <button data-q="auto">Auto LOD</button>
+    <button data-q="full" class="on">Full</button>
+    <button data-q="mid">Optimized</button>
+    <button data-q="impostor">Impostor</button>
+  </div>
+  <label><input type="checkbox" id="wire" /> Wireframe <kbd>X</kbd></label>
+  <label><input type="checkbox" id="normals" checked /> Normal maps</label>
+  <label><input type="checkbox" id="interior" checked /> Fake interiors (glass shader)</label>
+  <label><input type="checkbox" id="shadows" checked /> Shadows</label>
+  <label><input type="checkbox" id="grime" checked /> Weathering / grime</label>
+
+  <div class="head sub">Sun angle <span id="timeLabel"></span></div>
+  <input type="range" id="time" min="4.5" max="20.5" step="0.05" value="15.5" />
+
+  <div class="head sub">Camera <span id="modeLabel" class="pill">Orbit</span></div>
+  <div class="seg wrap" id="presets">
+    <button data-p="overview">Overview</button>
+    <button data-p="street">Street</button>
+    <button data-p="entrance">Entrance</button>
+    <button data-p="window">Window</button>
+    <button data-p="fire">Fire escape</button>
+    <button data-p="cornice">Cornice</button>
+    <button data-p="roof">Roof</button>
+  </div>
+  <div class="help">
+    <b>Orbit</b>: drag to rotate, right-drag to pan, scroll to zoom.<br />
+    <b>Fly</b>: press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to start flying. Drag to look,
+    <kbd>E</kbd>/<kbd>Q</kbd> up and down, <kbd>Shift</kbd> to go faster, scroll to change speed.
+    <kbd>F</kbd> switches between orbit and fly. <kbd>1</kbd>–<kbd>4</kbd> pick a quality level.
+  </div>
+</details></div>
+
+</div><script type="module" src="src/main.js"></script><script type="module" src="src/orbit-tour.js"></script><a href="spilled-blood/credits.html" style="position:fixed;bottom:12px;right:16px;color:#f1eee5;font:11px system-ui;text-shadow:0 1px 4px #000">Sources &amp; credits</a></body></html>

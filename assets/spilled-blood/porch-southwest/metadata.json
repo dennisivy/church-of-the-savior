@@ -1,0 +1,121 @@
+{
+  "id": "south-west-porch",
+  "output": "south-west-porch.png",
+  "output_size": [
+    368,
+    338
+  ],
+  "aspect": 1.0887573964497042,
+  "aspect_basis": "Mean photographed bounding-edge lengths, rounded to native-scale output; physical aspect uncalibrated",
+  "scene": "Descent from the Cross",
+  "credit": {
+    "author": "Gzen92",
+    "file": "Cathédrale Saint-Sauveur-sur-le-Sang-Versé - entrée (4).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Sauveur-sur-le-Sang-Vers%C3%A9_-_entr%C3%A9e_(4).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "modifications": "Photographic crop; mild four-point perspective rectification; bicubic resampling to 368 x 338; global RGB brightness multiplied by 2.0; antialiased transparent mask following the pointed top, upright sides and concave lower arch. No AI generation, inpainting, scene replacement, sharpening or invented detail.",
+  "note": "Descent from the Cross (after Viktor Vasnetsov), west-facing tympanum of the SOUTH porch block. Identification agrees with saved elements-porches-apses-roofs.md and visible scene in entree (4). The full surviving photographed scene is retained. Output aspect is photo-derived after mild rectification, not a surveyed physical ratio; single-view lens/perspective uncertainty remains. Low-light, limited-resolution source; do not claim restoration-level accuracy. Parent supplies placement and integration.",
+  "source_image": "source.jpg",
+  "source_size": [
+    1920,
+    2560
+  ],
+  "source_sha256": "f6ac5e1cbc79333d6e66744436dfb3a7fa6d82477607a2b5b95a06762c18ccec",
+  "metadata_evidence": "commons-metadata.json",
+  "script": "rectify.py",
+  "source_quad_pixels": [
+    [
+      794.0,
+      1577.0
+    ],
+    [
+      1152.0,
+      1573.0
+    ],
+    [
+      1165.0,
+      1910.0
+    ],
+    [
+      787.0,
+      1914.0
+    ]
+  ],
+  "source_mask_polygon_pixels": [
+    [
+      971,
+      1577
+    ],
+    [
+      1161,
+      1808
+    ],
+    [
+      1165,
+      1910
+    ],
+    [
+      1117,
+      1887
+    ],
+    [
+      1069,
+      1871
+    ],
+    [
+      1020,
+      1861
+    ],
+    [
+      971,
+      1858
+    ],
+    [
+      923,
+      1864
+    ],
+    [
+      876,
+      1877
+    ],
+    [
+      830,
+      1894
+    ],
+    [
+      787,
+      1914
+    ],
+    [
+      789,
+      1812
+    ]
+  ],
+  "homography_source_to_output": [
+    [
+      1.3946109447562078,
+      0.02896817986140484,
+      -1153.0039097778645
+    ],
+    [
+      0.016038847308117842,
+      1.4354768340765538,
+      -2276.481812101371
+    ],
+    [
+      4.902614070687874e-06,
+      0.00022533193608771857,
+      1.0
+    ]
+  ],
+  "placement_hint": {
+    "x": -24.365,
+    "y": 7.7,
+    "z": 16.25,
+    "face": "west"
+  },
+  "alpha": true,
+  "derivative_license": "CC BY-SA 4.0"
+}

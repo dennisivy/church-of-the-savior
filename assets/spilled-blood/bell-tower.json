@@ -1,0 +1,433 @@
+{
+  "asset": "bell-tower.glb",
+  "source": "spilled-blood/blender/bell-tower.blend",
+  "generator": "spilled-blood/blender/build_bell_tower.py",
+  "status": "reference-informed architectural reconstruction, not surveyed",
+  "units": "metres",
+  "coordinates": {
+    "source": "Blender Z-up; west -X",
+    "export": "glTF Y-up; (X,Y,Z)=(Blender X, Blender Z, -Blender Y)",
+    "origin": "shaft centre in plan, ground level",
+    "parent_translation": [
+      -20.259,
+      0,
+      0
+    ],
+    "parent_rotation_euler": [
+      0,
+      0,
+      0
+    ],
+    "parent_scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds_blender": {
+    "min": [
+      -6.909999847412109,
+      -7.634403705596924,
+      0.0
+    ],
+    "max": [
+      6.210000038146973,
+      7.634403705596924,
+      43.20000076293945
+    ]
+  },
+  "bounds_gltf": {
+    "min": [
+      -6.909999847412109,
+      0.0,
+      -7.634403705596924
+    ],
+    "max": [
+      6.210000038146973,
+      43.20000076293945,
+      7.634403705596924
+    ]
+  },
+  "triangles": 176444,
+  "vertices_export": 322956,
+  "export_primitives": 7,
+  "stage_bounds_gltf_m": {
+    "00 | Lower masonry and rusticated plinth": {
+      "min": [
+        -5.971838205208283,
+        0.0,
+        -5.971926256734186
+      ],
+      "max": [
+        5.971811268543449,
+        13.0,
+        5.971923481605051
+      ]
+    },
+    "01 | West three-stage heraldic piers": {
+      "min": [
+        -6.715000000000002,
+        0.0,
+        -7.634403858487467
+      ],
+      "max": [
+        -3.49,
+        14.45,
+        7.634403858487468
+      ]
+    },
+    "02 | Chamfered heraldic stage and 134 empty recesses": {
+      "min": [
+        -6.120000000000001,
+        12.899999999999999,
+        -6.15
+      ],
+      "max": [
+        6.010000000000001,
+        20.75,
+        6.15
+      ]
+    },
+    "03 | West window and blank shrine architecture": {
+      "min": [
+        -6.91,
+        0.20000000298023224,
+        -3.850000000000001
+      ],
+      "max": [
+        -5.625,
+        20.8,
+        3.849999999999999
+      ]
+    },
+    "04 | Tile frieze corbel table and layered cornices": {
+      "min": [
+        -6.210000000000001,
+        20.7,
+        -6.210000000000001
+      ],
+      "max": [
+        6.210000000000001,
+        22.93,
+        6.210000000000001
+      ]
+    },
+    "05 | Sixteen lower kokoshniks and roof": {
+      "min": [
+        -6.17,
+        22.94,
+        -6.17
+      ],
+      "max": [
+        6.17,
+        25.93,
+        6.17
+      ]
+    },
+    "06 | Twenty upper kokoshniks and roof": {
+      "min": [
+        -5.42,
+        25.65,
+        -5.42
+      ],
+      "max": [
+        5.42,
+        28.18,
+        5.42
+      ]
+    },
+    "07 | Eight pointed transition gables": {
+      "min": [
+        -5.2603678703308105,
+        27.9,
+        -5.2603678703308105
+      ],
+      "max": [
+        5.2603678703308105,
+        31.31,
+        5.2603678703308105
+      ]
+    },
+    "08 | Open belfry clustered columns": {
+      "min": [
+        -5.552989927217275,
+        31.2,
+        -5.552989927217275
+      ],
+      "max": [
+        5.552989927217275,
+        35.699999999999996,
+        5.552989927217274
+      ]
+    },
+    "09 | Eight open arch heads and railings": {
+      "min": [
+        -5.081785615807562,
+        31.42142105102539,
+        -5.081785615807562
+      ],
+      "max": [
+        5.081785615807562,
+        38.26,
+        5.081785615807562
+      ]
+    },
+    "10 | Inferred bronze bells and suspension beams": {
+      "min": [
+        -3.7,
+        32.9,
+        -3.7
+      ],
+      "max": [
+        3.7,
+        37.050000000000004,
+        3.7
+      ]
+    },
+    "11 | Sixteen drum-foot kokoshniks": {
+      "min": [
+        -4.84,
+        38.09,
+        -4.84
+      ],
+      "max": [
+        4.84,
+        39.43,
+        4.84
+      ]
+    },
+    "12 | Sixteen-bay arcaded drum": {
+      "min": [
+        -4.663533761814537,
+        39.35,
+        -4.663533761814537
+      ],
+      "max": [
+        4.663533761814537,
+        42.03,
+        4.663533761814537
+      ]
+    },
+    "13 | Unlettered stone frieze and dome-seat cornice": {
+      "min": [
+        -4.9,
+        41.82,
+        -4.9
+      ],
+      "max": [
+        4.9,
+        43.2,
+        4.9
+      ]
+    }
+  },
+  "vertices_source": 97320,
+  "materials": 7,
+  "material_names": [
+    "Siegersdorf red brick",
+    "Honey ochre brick",
+    "Estland limestone",
+    "Drafted grey granite",
+    "Patinated roof copper",
+    "Dark iron and glazing",
+    "Bell bronze"
+  ],
+  "validation": {
+    "on_disk_glb_checked": true,
+    "eight_openings_raycast": [
+      {
+        "azimuth_blender_degrees": 0,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 45,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 90,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 135,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 180,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 225,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 270,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      },
+      {
+        "azimuth_blender_degrees": 315,
+        "clear_at_heights": [
+          33.0,
+          35.8
+        ]
+      }
+    ],
+    "triangle_budget": 180000,
+    "max_height_m": 43.2
+  },
+  "export_meshes": 1,
+  "editable_stage_objects": 14,
+  "bytes": 9621780,
+  "placements_m": {
+    "shaft": {
+      "width": 11.4,
+      "depth": 11.4,
+      "height": [
+        0,
+        20.75
+      ]
+    },
+    "plinth": [
+      0,
+      4.57
+    ],
+    "west_piers": {
+      "x": -4.99,
+      "gltf_z_centres": [
+        -6.45,
+        6.45
+      ],
+      "body_outer_z": [
+        -7.4,
+        7.4
+      ],
+      "top": 14.45
+    },
+    "heraldic_stage": [
+      12.9,
+      20.75
+    ],
+    "main_frieze": [
+      20.7,
+      22.93
+    ],
+    "lower_kokoshniks": [
+      23,
+      25.4
+    ],
+    "upper_kokoshniks": [
+      25.88,
+      27.98
+    ],
+    "pointed_gables": [
+      28,
+      30.48
+    ],
+    "belfry_floor": [
+      30.85,
+      31.31
+    ],
+    "belfry_openings": {
+      "bottom": 31.31,
+      "spring": 35.25,
+      "clear_crown": 37.05,
+      "clear_width": 2.64,
+      "face_apothem": 4.711785615807562
+    },
+    "belfry_ceiling": [
+      37.99,
+      38.26
+    ],
+    "drum_foot": [
+      38.28,
+      39.43
+    ],
+    "arcaded_drum": [
+      39.35,
+      41.82
+    ],
+    "stone_frieze_cornice": [
+      41.82,
+      43.2
+    ],
+    "dome_attachment": {
+      "centre": [
+        0,
+        43.2,
+        0
+      ],
+      "radius": 4.8
+    }
+  },
+  "counts": {
+    "heraldic_grid_recesses": 134,
+    "main_side_grids_each": 44,
+    "west_chamfer_grids_each": 18,
+    "west_grid": 10,
+    "west_large_pier_recesses": 6,
+    "lower_kokoshniks": 16,
+    "upper_kokoshniks": 20,
+    "pointed_gables": 8,
+    "belfry_open_arches": 8,
+    "clustered_piers": 8,
+    "shafts_per_pier": 3,
+    "bells_inferred": 4,
+    "drum_foot_kokoshniks": 16,
+    "drum_arcade_bays": 16
+  },
+  "source_supported": [
+    "Five drafted rusticated granite courses",
+    "Chamfered heraldic stage and 6-row niche layout",
+    "Two stepped west piers with three stages",
+    "West tall window, lunette and canopy architectural hierarchy",
+    "Layered cornices and corbel arcade",
+    "Two kokoshnik rings, 8 open belfry arches and clustered piers",
+    "Sixteen drum-foot kokoshniks and sixteen-bay arcade"
+  ],
+  "inferred_or_adapted": [
+    "Exact profiles, depths, masonry joints and dimensions inferred from photographs, not measured",
+    "East hidden faces and rear kokoshnik counts use symmetry",
+    "Four visible hollow bronze bells requested by user; saved references show none and research reports originals removed in 1931",
+    "Upper drum compressed from research 38\u201346m to 38\u201343.2m to preserve existing dome interface",
+    "Shaft held at 11.4m square rather than uncertain research 14m estimate",
+    "West piers use existing +/-7.4m body envelope, with projecting cornices",
+    "Stone frieze uses restrained geometric carving; incomplete inscription is not invented",
+    "Shrine canopy simplified in stone/ochre within seven-material budget; no gold mosaic or openwork reproduction"
+  ],
+  "deliberately_omitted": [
+    "Onion dome, globe, all crosses",
+    "Mosaic figures, heraldic arms, lettering: all icon recess interiors remain blank unpainted stone",
+    "Porches, platform, canal railings and parent integration",
+    "Full photograph facade textures"
+  ],
+  "saved_reference_directory": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos",
+  "references": [
+    "spilled-blood/research/elements-bell-tower.md",
+    "src/site-sb.js",
+    "saved sb-photos/north.jpg",
+    "saved sb-photos/southwest.jpg",
+    "saved sb-photos/canal.jpg",
+    "saved sb-photos/bell-west.jpg"
+  ],
+  "integration_note": "Replace the parent bell-tower blockout meshes below the onion with this GLB, translated only by bell.u (-20.259). Keep parent dome/cross. Parent/shared files intentionally untouched."
+}

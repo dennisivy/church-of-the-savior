@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spilled Blood — sources and credits</title>
+<style>body{font:16px/1.6 system-ui;background:#18222d;color:#e5e9ed;max-width:850px;margin:40px auto;padding:20px}a{color:#a9d6ff}section{padding:18px 0;border-top:1px solid #53606b}small{color:#b8c2ca}</style>
+<h1>Sources and credits</h1><p>Church of the Saviour on Spilled Blood exterior study. Geometry is a reference-informed reconstruction, not a measured survey. Source photographs supply only the mosaic artwork; architecture is three-dimensional geometry.</p><a href="../index.html">Return to the building</a><p>Surface texture sources: <a href="https://polyhaven.com/">Poly Haven</a>, CC0. Daylight environment: <a href="https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky">Kloofendal 48d Partly Cloudy Pure Sky</a>, CC0. Refined mosaic textures use crops and masks derived from the credited photographs below; their individual licenses still apply.</p><div id="credits"></div>
+<script type="module">
+const data=await fetch('../assets/spilled-blood/artwork/mapping.json').then(r=>r.json());
+data.panels.push(await fetch('../assets/spilled-blood/porch-southwest/metadata.json').then(r=>r.json()));
+for(const p of data.panels){const el=document.createElement('section'),h=document.createElement('h2');h.textContent=p.id;el.append(h);const c=p.credit;
+const line=document.createElement('p');line.textContent=`Photograph by ${c.author}. `;
+for(const [text,url] of [[c.file,c.source_url],[c.license,c.license_url]]){const a=document.createElement('a');a.textContent=text;a.href=url;line.append(a,document.createTextNode(' · '));}
+el.append(line);const note=document.createElement('p');note.textContent=p.modifications;el.append(note);const resolution=document.createElement('small');resolution.textContent=p.note||'Source-derived image; no generated figures.';el.append(resolution);document.querySelector('#credits').append(el);}
+const heraldry=await fetch('../assets/spilled-blood/heraldry/mapping.json').then(r=>r.json());
+for(const panel of heraldry.panels){
+const section=document.createElement('section'),heading=document.createElement('h2');heading.textContent=panel.id;section.append(heading);
+const source=panel.credit||heraldry.source,p=document.createElement('p');p.textContent=source.author+' — '+source.modifications;section.append(p);
+for(const [label,url] of [[source.title,source.source_url],[source.license,source.license_url]]){const a=document.createElement('a');a.textContent=label;a.href=url;section.append(a,document.createTextNode(' · '));}
+document.querySelector('#credits').append(section);
+}
+</script>

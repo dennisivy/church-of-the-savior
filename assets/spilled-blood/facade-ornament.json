@@ -1,0 +1,127 @@
+{
+  "asset": "facade-ornament.glb",
+  "source": "spilled-blood/blender/facade-ornament.blend",
+  "generator": "spilled-blood/blender/build_facade_ornament.py",
+  "triangles": 158664,
+  "bytes": 7238332,
+  "materials": 6,
+  "meshes": 6,
+  "primitives": 6,
+  "editableObjects": 18,
+  "units": "metres",
+  "axes": {
+    "gltf": "x=u, y=h, z=outward",
+    "blender": "x=u, y=-outward, z=h"
+  },
+  "placement": {
+    "south": {
+      "position": [
+        0,
+        0,
+        15
+      ],
+      "rotationY": 0
+    },
+    "north": {
+      "position": [
+        0,
+        0,
+        -15
+      ],
+      "rotationY": 3.141592653589793
+    }
+  },
+  "windowCenters": [
+    -11,
+    -3.6,
+    -0.7,
+    2.2,
+    9.3
+  ],
+  "windowWidth": 1.2,
+  "windowLevels": [
+    [
+      8.6,
+      11.9
+    ],
+    [
+      17.3,
+      19.4
+    ]
+  ],
+  "openingValidation": {
+    "method": "BVH front-to-back rays sampled inside exact arched openings",
+    "rays": 4650,
+    "hits": 0
+  },
+  "bodyBounds": [
+    -15.7,
+    14.4
+  ],
+  "plinthTop": 6.4,
+  "corniceTop": 24,
+  "gable": {
+    "bounds": [
+      -8.6,
+      7
+    ],
+    "spring": 25.3,
+    "tip": 31.7,
+    "mosaic": "No infill: reserve interior of inner arch, approximately x -7.1..5.5, base24.6, apex30.1; profile tapers with cubic."
+  },
+  "counts": {
+    "ceramicPanels": 24,
+    "lowerHoods": 5,
+    "upperCentralHoods": 5,
+    "upperSideHoods": 4,
+    "gableInsetTiles": 29,
+    "gableChequerBlocks": 80,
+    "corniceArcatures": 49
+  },
+  "references": [
+    "spilled-blood/research/elements-main-body.md",
+    "src/site-sb.js",
+    "src/sb/facades.js",
+    "spilled-blood/blender/build_cross.py",
+    {
+      "photo": "south-middle.jpg",
+      "commons": "The_middle_part_of_the_southern_facade_of_the_Cathedral_Of_the_Resurrection.jpg",
+      "author": "Александр Байдуков",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "photo": "south2023.jpg",
+      "commons": "Church_of_Saviour_on_Blood_View_from_south_2023.jpg",
+      "author": "Dmitry Ivanov",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "photo": "c-south-cube.jpg",
+      "note": "Gridded reference crop, underlying source not independently identified"
+    }
+  ],
+  "inferred": [
+    "Relief depths and moulding cross sections interpreted from photos; not measured",
+    "Floral tile infill is a nonfigurative approximation; eagle and lily designs not reproduced",
+    "Carved rosettes simplified to raised petalled geometry",
+    "Cornice repetition adapted to exact parent facade dimensions",
+    "Six shared PBR materials approximate photo colors; no image textures"
+  ],
+  "integrationNotes": [
+    "No flat wall, window glass, plaques or mosaic artwork included",
+    "North rotation negates local x: current facades.js keeps original world window positions on north. Parent must align north wall openings to mirrored positions or mirror this asset locally before rotation; simple rotation alone does not align asymmetric centers.",
+    "Parent plain cornice reaches outward .5; ornamental arcature and crown are placed forward of it."
+  ],
+  "boundsGltf": {
+    "min": [
+      -15.899999618530273,
+      6.440000057220459,
+      0.05999999865889549
+    ],
+    "max": [
+      14.635000228881836,
+      31.780000686645508,
+      0.9449999928474426
+    ]
+  }
+}

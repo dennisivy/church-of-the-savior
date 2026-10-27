@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "source": {
+    "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+    "title": "Northern and North-Western tympana of the porches.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Northern_and_North-Western_tympana_of_the_porches.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modifications": "Individual heraldic mosaic tiles cropped, perspective-rectified and reduced to 96x136 pixels. No repainting, enhancement, inpainting or repeated substitutes.",
+    "local_file": "/private/tmp/sb-artwork-hires/porch-pair.jpg",
+    "size": [
+      7360,
+      4912
+    ],
+    "sha256": "75bab4b3ac6123e695c41b1aafac5927a448f97dac9f9d5a5ee446e6596d6b07",
+    "verified": "Actual Commons Summary and Licensing inspected in built-in browser during this research session"
+  },
+  "coordinates": "Bell-local glTF Y-up; west=-X, north=-Z; parent translates group.x by bell.u; no additional rotation or scale",
+  "scope": "11 north shields, north central icon and verified lower west shrine icon",
+  "panels": [
+    {
+      "id": "north-r4-c8",
+      "file": "north-r4-c8.png",
+      "description": "blue-black field with white tree",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 4,
+      "builder_column": 8,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6414.95652173913,
+          447.0
+        ],
+        [
+          6536.195652173913,
+          399.0
+        ],
+        [
+          6551.739130434782,
+          561.0
+        ],
+        [
+          6418.065217391304,
+          606.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          -0.2576466889288183,
+          0.005037700436104209,
+          1650.5404608232188
+        ],
+        [
+          -0.11599026817542095,
+          -0.2929702922304343,
+          875.0302503796207
+        ],
+        [
+          -0.00019216739199097153,
+          -0.00018874942123205498,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -2.52,
+        17.810000000000002,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "bdbb60a0fbea47c64dd9705be33f2d2fdc01cdd8e770551ee7edc8f6a46bcfde"
+    },
+    {
+      "id": "north-r4-c9",
+      "file": "north-r4-c9.png",
+      "description": "eagle above red and white lower field",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 4,
+      "builder_column": 9,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6707.173913043478,
+          357.0
+        ],
+        [
+          6825.304347826087,
+          312.0
+        ],
+        [
+          6837.739130434782,
+          465.0
+        ],
+        [
+          6716.5,
+          513.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          0.7001328993018952,
+          -0.041856152270712155,
+          -4680.970412046303
+        ],
+        [
+          0.298202242980556,
+          0.7828164805395887,
+          -2279.55976315999
+        ],
+        [
+          -2.3381304494192544e-05,
+          0.0001602906375926763,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -3.2399999999999998,
+        17.810000000000002,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "f99b1dd753cc63f34a1985b247df31cea8d2c86727e3c35e5cff44b0ff7f93e0"
+    },
+    {
+      "id": "north-r3-c7",
+      "file": "north-r3-c7.png",
+      "description": "white cross on red",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 3,
+      "builder_column": 7,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6163.152173913044,
+          837.0
+        ],
+        [
+          6284.391304347826,
+          795.0
+        ],
+        [
+          6296.826086956522,
+          930.0
+        ],
+        [
+          6172.478260869565,
+          972.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          8.404039278553265,
+          -0.5805437868239989,
+          -51309.45922701092
+        ],
+        [
+          3.779084051702096,
+          10.908845247227035,
+          -32421.774202405046
+        ],
+        [
+          0.0013462930114616297,
+          0.0019135152222481383,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -1.7999999999999998,
+        16.77,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "b8eb8c5ccbe424d7219d64b1aa70de649f6513c7ac1d61824c2685c65d7a975e"
+    },
+    {
+      "id": "north-r3-c8",
+      "file": "north-r3-c8.png",
+      "description": "mountain and diagonal blue band",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 3,
+      "builder_column": 8,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6414.95652173913,
+          735.0
+        ],
+        [
+          6536.195652173913,
+          693.0
+        ],
+        [
+          6551.739130434782,
+          879.0
+        ],
+        [
+          6421.173913043478,
+          921.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          -0.781886137750753,
+          0.026135532678038753,
+          4996.5559787024
+        ],
+        [
+          -0.2654151517762743,
+          -0.7661603812749398,
+          2265.7545447273355
+        ],
+        [
+          -0.00026602948532434797,
+          -0.00039044588107393517,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -2.52,
+        16.77,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "6d6735621e894135d5dce01f4508ae9255042407604245a24e57c284c49681af"
+    },
+    {
+      "id": "north-r3-c9",
+      "file": "north-r3-c9.png",
+      "description": "red bow on pale field",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 3,
+      "builder_column": 9,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6700.95652173913,
+          648.0
+        ],
+        [
+          6831.521739130435,
+          600.0
+        ],
+        [
+          6843.95652173913,
+          786.0
+        ],
+        [
+          6710.282608695652,
+          831.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          -1.612511532138669,
+          0.08217792185325228,
+          10752.11840853627
+        ],
+        [
+          -0.6010386714297834,
+          -1.6348931748757085,
+          5086.944795214111
+        ],
+        [
+          -0.0004558534100940431,
+          -0.0002392353836942884,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -3.2399999999999998,
+        16.77,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "f804c939549e2d5be1c58b1f609485c35390edb9335956f9d768649e3687dac0"
+    },
+    {
+      "id": "north-r2-c8",
+      "file": "north-r2-c8.png",
+      "description": "quartered red and blue animals",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 2,
+      "builder_column": 8,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6427.391304347826,
+          1044.0
+        ],
+        [
+          6551.739130434782,
+          999.0
+        ],
+        [
+          6564.173913043478,
+          1179.0
+        ],
+        [
+          6436.717391304348,
+          1227.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          0.725875805651148,
+          -0.03699258209511919,
+          -4626.867446880751
+        ],
+        [
+          0.2628257296391676,
+          0.726264262571166,
+          -2447.5036491487435
+        ],
+        [
+          -2.632497008209248e-05,
+          0.00014025645247368483,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -2.52,
+        15.73,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "504fb594895f92a9174276e9e782ed421143cf923f9694716e0c8af3f25c6a5d"
+    },
+    {
+      "id": "north-r2-c9",
+      "file": "north-r2-c9.png",
+      "description": "diagonal dark band on pale field",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 2,
+      "builder_column": 9,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6710.282608695652,
+          966.0
+        ],
+        [
+          6843.95652173913,
+          921.0
+        ],
+        [
+          6853.282608695652,
+          1098.0
+        ],
+        [
+          6719.608695652174,
+          1140.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          3.7066553741121386,
+          -0.19867186839289408,
+          -24680.78846191984
+        ],
+        [
+          1.3379769893485605,
+          3.9745001357640963,
+          -12817.570995632443
+        ],
+        [
+          0.0006390122138701411,
+          -6.91156959066539e-05,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -3.2399999999999998,
+        15.73,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "0aa090568990b9cf89a2dd5062bbfb3cd27b6191470116f572b4ad875448284a"
+    },
+    {
+      "id": "north-r1-c8",
+      "file": "north-r1-c8.png",
+      "description": "vertical blue band between dark figures",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 1,
+      "builder_column": 8,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6446.04347826087,
+          1356.0
+        ],
+        [
+          6570.391304347826,
+          1314.0
+        ],
+        [
+          6579.717391304348,
+          1488.0
+        ],
+        [
+          6455.369565217391,
+          1530.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          0.7504020504975727,
+          -0.04022056608214209,
+          -4782.585140145327
+        ],
+        [
+          0.2573974365590596,
+          0.7620659038304063,
+          -2692.556427382173
+        ],
+        [
+          2.089374072619107e-17,
+          3.227266135285966e-17,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -2.52,
+        14.690000000000001,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "0b398345abbb5b3251ab72c9d0cccbe58e89df7ecfdf9ee2500699a858d8dc4a"
+    },
+    {
+      "id": "north-r1-c9",
+      "file": "north-r1-c9.png",
+      "description": "gold crescent below pale chief",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 1,
+      "builder_column": 9,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6725.826086956522,
+          1266.0
+        ],
+        [
+          6853.282608695652,
+          1221.0
+        ],
+        [
+          6862.608695652174,
+          1410.0
+        ],
+        [
+          6732.04347826087,
+          1452.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          -1.3819694680455932,
+          0.046194076667045565,
+          9236.404715852743
+        ],
+        [
+          -0.4758489882347884,
+          -1.3477792670129722,
+          4906.766130968202
+        ],
+        [
+          -0.0003817519435952086,
+          -0.00021273027417975453,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -3.2399999999999998,
+        14.690000000000001,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "b16e184a193ec694172d49b7846cb5e36791145dfe378dfb0d2f1cfacbb92a39"
+    },
+    {
+      "id": "north-r0-c8",
+      "file": "north-r0-c8.png",
+      "description": "dark horse on pale gold",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 0,
+      "builder_column": 8,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6458.478260869565,
+          1656.0
+        ],
+        [
+          6585.934782608696,
+          1617.0
+        ],
+        [
+          6592.152173913044,
+          1785.0
+        ],
+        [
+          6464.695652173913,
+          1827.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          0.3931253302867433,
+          -0.01429452769745925,
+          -2515.3195697821934
+        ],
+        [
+          0.1297712992879972,
+          0.42410772266182384,
+          -1540.4474737593596
+        ],
+        [
+          -7.217810989011274e-05,
+          5.358288870808209e-06,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -2.52,
+        13.65,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "62f7d9c4a5f6c3907291448abeb354cff099d66ab786c080a543a8cf6bcd0c54"
+    },
+    {
+      "id": "north-r0-c9",
+      "file": "north-r0-c9.png",
+      "description": "blue animal on pale field",
+      "face": "north",
+      "builder_angle_radians": 1.5707963267948966,
+      "builder_row": 0,
+      "builder_column": 9,
+      "source_quad_TL_TR_BR_BL": [
+        [
+          6741.369565217392,
+          1587.0
+        ],
+        [
+          6865.717391304348,
+          1551.0
+        ],
+        [
+          6878.152173913044,
+          1701.0
+        ],
+        [
+          6747.586956521739,
+          1740.0
+        ]
+      ],
+      "source_to_output_homography": [
+        [
+          3.248824940297971,
+          -0.1320187652063375,
+          -21692.016001775446
+        ],
+        [
+          1.1499470050565768,
+          3.972033746958137,
+          -14055.835371162671
+        ],
+        [
+          0.00015744395042909182,
+          0.001432316727407194,
+          1.0
+        ]
+      ],
+      "output_size": [
+        96,
+        136
+      ],
+      "position_local": [
+        -3.2399999999999998,
+        13.65,
+        -5.828
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 0.47,
+      "height_m": 0.67,
+      "placement_basis": "North main grid; row 0 bottom, row 5 top; column 0 photo-left/east, column 9 photo-right/west. Builder tangent u=(col-4.5)*.72; h=13.65+row*1.04. Artwork face 8mm outward of bed surface r=5.82.",
+      "sha256": "52834b50ebb967fbaf60ba5485f2ee3813ae3012453cd30534bcef7522ff6e90"
+    },
+    {
+      "id": "north-central-icon",
+      "file": "north-central-icon.png",
+      "description": "North bell-tower central icon: enthroned Christ flanked by two standing figures; all are real photographed mosaic.",
+      "face": "north",
+      "source_quad_TL_TR_BR_BL": [
+        [
+          5216.0,
+          841.3979706877114
+        ],
+        [
+          6024.5,
+          592.4915445321308
+        ],
+        [
+          6059.0,
+          1613.607666290868
+        ],
+        [
+          5229.5,
+          1792.0405862457721
+        ]
+      ],
+      "source_visible_polygon": [
+        [
+          5220.5,
+          844.3968432919955
+        ],
+        [
+          6020.0,
+          598.489289740699
+        ],
+        [
+          6050.0,
+          1507.1476888387824
+        ],
+        [
+          5228.0,
+          1660.0901916572716
+        ]
+      ],
+      "source_wire_mask_segment": [
+        [
+          5526.5,
+          742.435174746336
+        ],
+        [
+          5559.5,
+          1660.0901916572716
+        ]
+      ],
+      "source_wire_mask_width_px": 7,
+      "source_to_output_homography": [
+        [
+          1.5511987399687859,
+          -0.022028450514894788,
+          -8072.517934589489
+        ],
+        [
+          0.5629827648151474,
+          1.828685420758801,
+          -4475.170264068492
+        ],
+        [
+          0.00023812173893018664,
+          5.140912068549399e-05,
+          1.0
+        ]
+      ],
+      "output_size": [
+        512,
+        748
+      ],
+      "position_local": [
+        0,
+        16.25,
+        -5.858
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "width_m": 2.66,
+      "height_m": 3.9,
+      "alpha_test": 0.35,
+      "credit": {
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "title": "Northern and North-Western tympana of the porches.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northern_and_North-Western_tympana_of_the_porches.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modifications": "Central north icon cropped and approximately perspective-rectified to the builder inset aspect. Conservative transparent mask excludes occluded lower ground/roof/railing and a thin wire. No reconstruction, inpainting, cloned artwork or generated figures.",
+        "local_file": "/private/tmp/sb-artwork-hires/porch-pair.jpg",
+        "size": [
+          7360,
+          4912
+        ],
+        "sha256": "75bab4b3ac6123e695c41b1aafac5927a448f97dac9f9d5a5ee446e6596d6b07",
+        "verified": "Actual Commons Summary and Licensing inspected in built-in browser during this research session"
+      },
+      "placement_basis": "Builder north central frame(a=pi/2,r=5.94,u=0,z=16.25,w=2.70,h=3.94); bed outer radius=5.85; plane 8mm outward, dimensions inset 2cm each side. Photo plane rectification approximate; target aspect follows builder, not a metric camera solve.",
+      "occlusion": "Lower background strip and wire are transparent. Parent stone bed remains visible there; do not fill or clone.",
+      "sha256": "3faf90ae6e3debf3c828162061295b61fe8f6be78da3daf48d3fa3393a935982"
+    },
+    {
+      "id": "west-shrine-icon",
+      "file": "west-shrine-icon.png",
+      "description": "Lower west shrine Crucifixion with gold mosaic surround and two small inset icons; photographed relief/trim remains flat in this texture.",
+      "face": "west",
+      "source_crop_bbox_xyxy": [
+        1201,
+        744,
+        2556,
+        2533
+      ],
+      "source_visible_polygon": [
+        [
+          1201,
+          2410
+        ],
+        [
+          1208,
+          1711
+        ],
+        [
+          1225,
+          1544
+        ],
+        [
+          1278,
+          1355
+        ],
+        [
+          1354,
+          1177
+        ],
+        [
+          1466,
+          1020
+        ],
+        [
+          1599,
+          884
+        ],
+        [
+          1742,
+          786
+        ],
+        [
+          1878,
+          744
+        ],
+        [
+          2014,
+          761
+        ],
+        [
+          2154,
+          824
+        ],
+        [
+          2283,
+          922
+        ],
+        [
+          2391,
+          1058
+        ],
+        [
+          2468,
+          1226
+        ],
+        [
+          2524,
+          1414
+        ],
+        [
+          2555,
+          1603
+        ],
+        [
+          2538,
+          2413
+        ],
+        [
+          2164,
+          2413
+        ],
+        [
+          2164,
+          2256
+        ],
+        [
+          2018,
+          2253
+        ],
+        [
+          1983,
+          2417
+        ],
+        [
+          1944,
+          2518
+        ],
+        [
+          1854,
+          2532
+        ],
+        [
+          1812,
+          2473
+        ],
+        [
+          1812,
+          2323
+        ],
+        [
+          1766,
+          2253
+        ],
+        [
+          1592,
+          2256
+        ],
+        [
+          1592,
+          2417
+        ]
+      ],
+      "original_pixel_scale_xy": [
+        1.83515625,
+        1.83515625
+      ],
+      "source_to_output_affine": [
+        [
+          0.37785977859778597,
+          0,
+          -451.80959409594095
+        ],
+        [
+          0,
+          0.37786472889882616,
+          -279.1313583007267
+        ]
+      ],
+      "output_size": [
+        516,
+        680
+      ],
+      "target_inner_xyxy": [
+        2,
+        2,
+        513,
+        677
+      ],
+      "position_local": [
+        -6.148,
+        3.55,
+        0
+      ],
+      "rotation_y_radians": -1.5707963267948966,
+      "width_m": 3.01,
+      "height_m": 3.966666666666667,
+      "alpha_test": 0.35,
+      "credit": {
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "title": "Western facade of the bell tower Of the Cathedral of the Resurrection.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Western_facade_of_the_bell_tower_Of_the_Cathedral_of_the_Resurrection.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "date_taken": "2020-10-10 15:54:41",
+        "source": "Own work",
+        "verified": "Actual Commons Summary and Licensing returned by exact-title web search; also independently verified by parent.",
+        "modifications": "Cropped lower west shrine composition; outer architecture and pedestal masked transparent; area-downsampled with transparent padding. Internal crucifix and small inset-icon borders retained as part of the photographed composition. No invented or reconstructed imagery.",
+        "local_file": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/bell-west.jpg",
+        "size": [
+          3840,
+          2560
+        ],
+        "original_size": [
+          7047,
+          4698
+        ],
+        "sha256": "6016af4562e46a95e92ece4f09b4c40f4dc5ce0fb99a68e7751683c22f896b4e"
+      },
+      "placement_basis": "Lower west shrine frame(a=pi,r=6.23,u=0,z=3.55,w=3.05,h=5.40); bed surface r=6.14, image 8mm outward. Width fits inside niche; height preserves photographic aspect, deliberately not stretched to full 5.40m height. Image-left is local -Z/north.",
+      "occlusion": "Outer carved hood/brick/granite excluded; pedestal around lower figure masked. Transparent areas expose parent backing. No reconstruction beyond available photo.",
+      "sha256": "2f6c7f946377964af28cdfa00afa26ef6616f3fb07af2e681c8ad005aff39d93"
+    }
+  ]
+}

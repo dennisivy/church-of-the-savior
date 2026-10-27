@@ -1,0 +1,41 @@
+{
+  "file": "porch.glb",
+  "triangles": 48972,
+  "bytes": 1738052,
+  "origin": "core centre, ground Y0; south portal faces+Z, west portal-X",
+  "placement": [
+    -19.25,
+    0,
+    16.25
+  ],
+  "north": "mirror scene scale.z=-1 and place z=-16.25",
+  "uncertainty": [
+    "Porch dimensions provisional; existing solve retained",
+    "Mosaic panels need actual artwork",
+    "Tile course counts are estimated",
+    "Eagle volume, feather count and small anatomy interpreted from limited-resolution saved photographs; no exact heraldic shield modeled"
+  ],
+  "eagle": {
+    "references": [
+      "research/elements-porches-apses-roofs.md",
+      "saved research-porches/Cath\u00e9drale Saint-Sauveur-sur-le-Sang-Vers\u00e9 - entr\u00e9e (3).jpg",
+      "saved research-porches/Cath\u00e9drale Saint-Sauveur-sur-le-Sang-Vers\u00e9 - entr\u00e9e (4).jpg"
+    ],
+    "observed": "Gilded double-headed bird, outward heads, raised wing shoulders, hanging separated feathers, compact breast, tail, small crown and turned mounting stem",
+    "inferred": "Exact three-dimensional anatomy, rear relief, 8 primary feathers per wing, covert/breast rows, eye and talon details, hooked beak section and crown rib arrangement",
+    "omitted": "Unresolved heraldic shield, inscriptions and handheld attributes; none invented",
+    "local_blender_bounds_min": [
+      -0.8233320713043213,
+      -0.19900000095367432,
+      21.399999618530273
+    ],
+    "local_blender_bounds_max": [
+      0.8233320713043213,
+      0.15862610936164856,
+      22.987998962402344
+    ],
+    "editable_objects": 113,
+    "scope": "Only original eagle block replaced; existing architectural geometry, origin and exporter unchanged",
+    "geometry_preservation_verified": 2066
+  }
+}

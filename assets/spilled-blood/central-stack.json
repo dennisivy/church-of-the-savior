@@ -1,0 +1,143 @@
+{
+  "asset": "central-stack.glb",
+  "source": "spilled-blood/blender/central-stack.blend",
+  "generator": "spilled-blood/blender/build_central_stack.py",
+  "status": "photo-informed detailed reconstruction; not survey grade",
+  "interface": {
+    "units": "metres",
+    "sourceUp": "Z",
+    "exportUp": "Y",
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "parentPosition": [
+      0,
+      0,
+      0
+    ],
+    "parentScale": [
+      1,
+      1,
+      1
+    ],
+    "heightRange": [
+      24,
+      64.5
+    ],
+    "sourceToGltf": "(x,y,z) -> (x,z,-y)",
+    "replace": "existing central octagon, its top cornice, tent/tent ridges, lantern only",
+    "exclude": [
+      "central onion",
+      "cross",
+      "corner domes and drums",
+      "main building body"
+    ]
+  },
+  "geometry": {
+    "triangles": 142464,
+    "preferredTriangleBudget": 180000,
+    "withinPreferredBudget": true,
+    "byMaterial": {
+      "brick": 9208,
+      "buff": 42600,
+      "limestone": 59052,
+      "cobalt": 14384,
+      "green": 14148,
+      "recess": 3072
+    },
+    "materials": 6,
+    "exportMeshes": 6,
+    "expectedDrawCalls": 6,
+    "sourceObjects": 877,
+    "sourceBounds": [
+      [
+        -6.9686970710754395,
+        -6.9686970710754395,
+        24.0
+      ],
+      [
+        6.9686970710754395,
+        6.9686970710754395,
+        64.5
+      ]
+    ],
+    "bytes": 9161564
+  },
+  "features": {
+    "mainArchedWindows": 8,
+    "mainRevealDepth": 0.72,
+    "layeredKeelHoods": 8,
+    "flankInsetCeramicPanels": 80,
+    "cornerGreenGables": 8,
+    "tentBaseKokoshniks": 16,
+    "tentFaces": 8,
+    "tentTileRows": 39,
+    "stripedRidges": 8,
+    "dormers": 8,
+    "balustersPerDormer": 4,
+    "lanternArchedWindows": 8,
+    "lanternRevealDepth": 0.42,
+    "lanternBaseKokoshniks": 16
+  },
+  "references": [
+    {
+      "local": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/south2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_of_Saviour_on_Blood_View_from_south_2023.jpg",
+      "packedImage": "south2023.jpg",
+      "sha256": "fc1ffa3bb579460f4f5f88396caf5a687550058d4aa506f94ae223116e22f8be",
+      "use": "Primary current elevation, CC BY-SA 4.0 per project research"
+    },
+    {
+      "local": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/sb-photos/c-centre.jpg",
+      "url": null,
+      "packedImage": "c-centre.jpg",
+      "sha256": "2fc6cd61c5990bf0659e826752322d196798f53f2e5fb99ac9143e40ed41d178",
+      "use": "Supplied overhead crop; provenance/licence unresolved; private reference only"
+    },
+    {
+      "local": "/private/tmp/sb-central-official-restoration.jpg",
+      "url": "https://cathedral.ru/storage/uploads/sp_restore_3.jpg",
+      "packedImage": "sb-central-official-restoration.jpg",
+      "sha256": "a2c3a52898af10e623059aea0df3d3895cc00cf46dd41a9331ffaa45ae9bf265",
+      "use": "Official museum historic restoration photo; secondary evidence for masonry vocabulary, not current central tent pattern"
+    }
+  ],
+  "authoritativeWrittenSource": {
+    "url": "https://cathedral.ru/ru/spas/restoration",
+    "accessed": "2026-10-25",
+    "summary": "Museum confirms glazed ceramic coverings of central tent; Kharlamov manufacture 1897\u20131906, later restoration with reduced range of tile sizes."
+  },
+  "uncertainty": [
+    "Envelope follows supplied blockout rather than survey; drum radius is circumradius, not across-flat radius.",
+    "Arch heights, moldings and window proportions visually estimated from south2023; obscured faces repeat visible bays.",
+    "Roof uses 39 total courses including the dormer zone; exact tile count, motif phase and scale outlines inferred.",
+    "Six-material palette shares buff masonry with ochre ridge strips, limestone with white glaze, green glaze with copper.",
+    "Rosettes are geometric four-lobed interpretations; individual historic floral iconography not replicated.",
+    "Dormer roof backs inferred; modern service railings omitted.",
+    "Official restoration photo is historical secondary masonry reference; current central stack appearance comes from supplied south and overhead photos.",
+    "Photographs packed for reference only; no photographic textures in exported asset."
+  ],
+  "validation": {
+    "glbHeader": "passed",
+    "serializedTriangles": 142464,
+    "serializedPrimitives": 6,
+    "gltfBounds": [
+      [
+        -6.9686970710754395,
+        24,
+        -6.9686970710754395
+      ],
+      [
+        6.9686970710754395,
+        64.5,
+        6.9686970710754395
+      ]
+    ],
+    "identityNodeTransforms": true,
+    "externalResources": false,
+    "heightAndOriginAssertions": "passed",
+    "visualReview": "Three-quarter Cycles render inspected; corrected tent intrusion into dormer glazing and closed lantern base."
+  }
+}

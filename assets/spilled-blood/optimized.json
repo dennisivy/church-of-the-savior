@@ -1,0 +1,44 @@
+{
+  "central-cross": {
+    "file": "central-cross.draco.glb",
+    "bytes": 101496,
+    "originalBytes": 880400,
+    "positionBits": 16,
+    "normalBits": 12
+  },
+  "porch": {
+    "file": "porch.draco.glb",
+    "bytes": 236484,
+    "originalBytes": 1738052,
+    "positionBits": 16,
+    "normalBits": 12
+  },
+  "central-stack": {
+    "file": "central-stack.draco.glb",
+    "bytes": 1166616,
+    "originalBytes": 9161564,
+    "positionBits": 16,
+    "normalBits": 12
+  },
+  "facade-ornament": {
+    "file": "facade-ornament.draco.glb",
+    "bytes": 875036,
+    "originalBytes": 7238332,
+    "positionBits": 16,
+    "normalBits": 12
+  },
+  "bell-tower": {
+    "file": "bell-tower.draco.glb",
+    "bytes": 1222084,
+    "originalBytes": 9621780,
+    "positionBits": 16,
+    "normalBits": 12
+  },
+  "corner-drum": {
+    "file": "corner-drum.draco.glb",
+    "bytes": 687392,
+    "originalBytes": 4519156,
+    "positionBits": 16,
+    "normalBits": 12
+  }
+}

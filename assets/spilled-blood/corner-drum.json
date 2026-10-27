@@ -1,0 +1,129 @@
+{
+  "asset": "corner-drum.glb",
+  "source": "spilled-blood/blender/corner-drum.blend",
+  "generator": "spilled-blood/blender/build_corner_drum.py",
+  "status": "Photo-informed reusable corner drum; not surveyed",
+  "interface": {
+    "units": "metres",
+    "sourceUp": "Z",
+    "exportUp": "Y",
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "absoluteHeight": [
+      27,
+      37
+    ],
+    "wallRadius": 3.4,
+    "corniceRadius": 3.76,
+    "domeJoinHeight": 37,
+    "parentTranslation": "[corner.u, 0, corner.v]",
+    "parentScale": [
+      1,
+      1,
+      1
+    ],
+    "warning": "Do not translate vertically by corners.kok; this asset already includes absolute elevation.",
+    "replaces": "createDrum corner only; review lower gables against parent roof before integration",
+    "excludes": [
+      "domes",
+      "crosses",
+      "main body",
+      "figurative angel mosaics",
+      "base cylinder below 27"
+    ]
+  },
+  "geometry": {
+    "triangles": 97912,
+    "triangleBudget": 120000,
+    "withinBudget": true,
+    "byMaterial": {
+      "brick": 25324,
+      "buff": 13724,
+      "stone": 49468,
+      "blue": 72,
+      "green": 3640,
+      "dark": 5684
+    },
+    "materials": 6,
+    "meshes": 6,
+    "primitives": 6,
+    "expectedDrawCallsPerInstance": 6,
+    "gltfBounds": [
+      [
+        -3.7923285961151123,
+        27,
+        -3.7923285961151123
+      ],
+      [
+        3.7923285961151123,
+        37,
+        3.7923285961151123
+      ]
+    ],
+    "bytes": 4519156,
+    "sourceObjects": 175,
+    "draco": false
+  },
+  "features": {
+    "arcadeBays": 12,
+    "windows": 6,
+    "blindArches": 6,
+    "balusters": 12,
+    "balusterSwellings": 2,
+    "pendantBrackets": 12,
+    "lowerKokoshniks": 6,
+    "interstitialCeramicPanels": 6,
+    "corbelTiers": 2,
+    "realWindowRevealDepth": 0.42
+  },
+  "validation": {
+    "GLBHeader": "passed",
+    "serializedTriangleCount": "passed",
+    "bounds27to37": "passed",
+    "identityNodeTransforms": true,
+    "noDraco": true,
+    "sourceSavedBeforeMerge": true,
+    "visualReview": "Cycles three-quarter render inspected; relief brick bands refined after first render"
+  },
+  "references": [
+    {
+      "local": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/research-domes/c15.jpg",
+      "packedImage": "c15.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cath\u00e9drale_Saint-Sauveur-sur-le-Sang-Vers\u00e9_-_coupole_(15).jpg",
+      "credit": "Gzen92, CC BY-SA 4.0",
+      "sha256": "8d33bd2334a58c24b32151b62d0984f9035405f0748e9d5e78288e9b0b28c3db"
+    },
+    {
+      "local": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/research-domes/c10.jpg",
+      "packedImage": "c10.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cath\u00e9drale_Saint-Sauveur-sur-le-Sang-Vers\u00e9_-_coupole_(10).jpg",
+      "credit": "Gzen92, CC BY-SA 4.0",
+      "sha256": "1c33576a477facd0cfcbde339270659a59b4e01a2af0feda2575ec608b824614"
+    },
+    {
+      "local": "/private/tmp/claude-501/-Users-dennis-Desktop-dummy-projects/9f6002e8-7eb2-49fd-b319-80b29bcb58c7/scratchpad/research-domes/\u041a\u0443\u043f\u043e\u043b_\u043f\u043e\u043a\u0440\u044b\u0442\u044b\u0439_\u044d\u043c\u0430\u043b\u044c\u044e_1.jpg",
+      "packedImage": "\u041a\u0443\u043f\u043e\u043b_\u043f\u043e\u043a\u0440\u044b\u0442\u044b\u0439_\u044d\u043c\u0430\u043b\u044c\u044e_1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:\u041a\u0443\u043f\u043e\u043b_\u043f\u043e\u043a\u0440\u044b\u0442\u044b\u0439_\u044d\u043c\u0430\u043b\u044c\u044e_1.jpg",
+      "credit": "Alex Givengot, CC BY-SA 4.0",
+      "sha256": "8262baf071922f079002a35e49a2848eb59b251bc5e1c3873fd660029978c8e3"
+    }
+  ],
+  "research": [
+    "spilled-blood/research/elements-domes.md section 6 and uncertainties",
+    "src/site-sb.js corners dimensions",
+    "src/sb/drums.js existing module interface"
+  ],
+  "uncertainty": [
+    "Twelve bays and six windows inferred from visible spacing; research explicitly allows count uncertainty.",
+    "Heights and widths scaled into the requested 27..37m envelope; no survey measurements.",
+    "Six broad lower kokoshniks follow visible layered arch construction, but complete circumferential count is obscured.",
+    "Base infill uses abstract ceramic flowers in place of unresolved image detail; angel mosaics are omitted and belong to main-body work.",
+    "Interstitial ceramic panel distribution is an interpretation; not verified on all four drums.",
+    "Baluster profiles follow c15 double swellings and hanging drops; exact carved section dimensions inferred.",
+    "Four corner towers share one module; orientation and individual weathering differences are not represented.",
+    "Materials use six shared finishes; masonry colour variation and brick relief are deterministic approximations."
+  ]
+}

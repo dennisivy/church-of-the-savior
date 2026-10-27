@@ -1,0 +1,354 @@
+{
+  "generator": "spilled-blood/whole-refinement/prepare_mosaics.py",
+  "mapping_sha256": "1b2e7bc56a5f3fbaba8f3f45b6454de0c75f48cd33c95ed145985cb4ecdbcc26",
+  "policy": "Local originals only, no network or generated image detail.",
+  "mask_precision": "Same normalized alpha field; raster resampling/rounding changes edge samples slightly, not the traced silhouette. Measured round-trip error is recorded per map.",
+  "replacements": {
+    "Licensed mosaic: improvednorth-porch-front": {
+      "id": "improvednorth-porch-front",
+      "mesh_key": "Licensed mosaic: improvednorth-porch-front",
+      "path": "assets/spilled-blood/whole-refinement/mosaics/improvednorth-porch-front.png",
+      "output_size": [
+        737,
+        648
+      ],
+      "output_sha256": "cdc1342e81cc0dec4f85694d0bc0ac5f42655ec7f5f5cf894cbbff287422faa1",
+      "bytes": 613484,
+      "previous_map": "assets/spilled-blood/artwork/improvednorth-porch-front.png",
+      "previous_output_size": [
+        516,
+        454
+      ],
+      "previous_sha256": "c6e0fd74b042ae4e7faac4e1a7e47cd822d9141a4ae8d79eb63777394efd975f",
+      "source_local_file": "/private/tmp/sb-artwork-hires/porch-pair.jpg",
+      "source_size": [
+        7360,
+        4912
+      ],
+      "source_sha256": "75bab4b3ac6123e695c41b1aafac5927a448f97dac9f9d5a5ee446e6596d6b07",
+      "source_crop_bbox_xyxy": [
+        1250,
+        2781,
+        2016,
+        3911
+      ],
+      "source_crop_size": [
+        766,
+        1130
+      ],
+      "original_polygon": [
+        [
+          1674,
+          2781
+        ],
+        [
+          2015,
+          3453
+        ],
+        [
+          2014,
+          3539
+        ],
+        [
+          1910,
+          3562
+        ],
+        [
+          1917,
+          3612
+        ],
+        [
+          1935,
+          3618
+        ],
+        [
+          1935,
+          3694
+        ],
+        [
+          1964,
+          3700
+        ],
+        [
+          1977,
+          3768
+        ],
+        [
+          1936,
+          3744
+        ],
+        [
+          1886,
+          3717
+        ],
+        [
+          1828,
+          3698
+        ],
+        [
+          1768,
+          3684
+        ],
+        [
+          1707,
+          3680
+        ],
+        [
+          1642,
+          3686
+        ],
+        [
+          1572,
+          3703
+        ],
+        [
+          1502,
+          3731
+        ],
+        [
+          1429,
+          3770
+        ],
+        [
+          1362,
+          3815
+        ],
+        [
+          1298,
+          3870
+        ],
+        [
+          1250,
+          3910
+        ],
+        [
+          1268,
+          3590
+        ]
+      ],
+      "credit": {
+        "file": "Northern_and_North-Western_tympana_of_the_porches.jpg",
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northern_and_North-Western_tympana_of_the_porches.jpg",
+        "original_size": [
+          7360,
+          4912
+        ]
+      },
+      "derivative_license": "CC BY-SA 4.0",
+      "source_to_old_pixel_centres": [
+        [
+          0.6837739721830771,
+          0.030191164757061503,
+          -971.0992586238591
+        ],
+        [
+          0.06582886202701155,
+          0.4224837413673882,
+          -1283.124799775924
+        ]
+      ],
+      "source_to_new_pixel_centres": [
+        [
+          0.9766306540676897,
+          0.043121876794485134,
+          -1386.8016542747755
+        ],
+        [
+          0.0939583757566156,
+          0.6030164414230563,
+          -1831.2067626757682
+        ]
+      ],
+      "output_pixels_per_source_pixel_principal_axes": [
+        0.9892164785479639,
+        0.5912484201192215
+      ],
+      "normalized_uv_registration_max_error": 6.661338147750939e-16,
+      "alpha_roundtrip_mean_absolute_error_0_255": 0.40319041764846497,
+      "alpha_policy": "Existing alpha bilinearly sampled at identical normalized UVs; no new mask.",
+      "modifications": "Original RGB resampled once at native-or-lower density; original framing, padding, alpha field and occlusions retained. No AI, enlargement, inpainting, sharpening or colour adjustment.",
+      "integration": "Replace map only; set SRGBColorSpace and copy old texture orientation/wrap/filter/UV transform settings. Preserve geometry, material alphaTest/opacity, normal/roughness maps and placement. Do not derive plane aspect from new image dimensions.",
+      "delivery_path": "assets/spilled-blood/whole-refinement/mosaics/improvednorth-porch-front.webp",
+      "delivery_bytes": 129548,
+      "delivery_format": "WebP quality95; native-resolution RGB, original alpha retained"
+    },
+    "Licensed mosaic: north-west-porch": {
+      "id": "north-west-porch",
+      "mesh_key": "Licensed mosaic: north-west-porch",
+      "path": "assets/spilled-blood/whole-refinement/mosaics/north-west-porch.png",
+      "output_size": [
+        2285,
+        2015
+      ],
+      "output_sha256": "8bb5b453a2471f4ff10d1dc84c8a7d9f6b19e9aa330477b041d64fcee0d301f8",
+      "bytes": 5180778,
+      "previous_map": "assets/spilled-blood/artwork/north-west-porch.png",
+      "previous_output_size": [
+        516,
+        455
+      ],
+      "previous_sha256": "da423062231f17727f7e461f2258fbef61acb9061ae46e562acdbdffd8d952f6",
+      "source_local_file": "/private/tmp/sb-artwork-hires/northwest-crucifixion.jpg",
+      "source_size": [
+        2859,
+        4083
+      ],
+      "source_sha256": "c0c67de5e26a0ba12420fbaa9423f4984b50ce97526627987140c7723bf84d35",
+      "source_crop_bbox_xyxy": [
+        286,
+        1392,
+        2578,
+        3410
+      ],
+      "source_crop_size": [
+        2292,
+        2018
+      ],
+      "original_polygon": [
+        [
+          1446,
+          1392
+        ],
+        [
+          2561,
+          2801
+        ],
+        [
+          2577,
+          3409
+        ],
+        [
+          2406,
+          3311
+        ],
+        [
+          2230,
+          3230
+        ],
+        [
+          2042,
+          3168
+        ],
+        [
+          1838,
+          3119
+        ],
+        [
+          1638,
+          3099
+        ],
+        [
+          1438,
+          3087
+        ],
+        [
+          1233,
+          3095
+        ],
+        [
+          1033,
+          3119
+        ],
+        [
+          825,
+          3164
+        ],
+        [
+          613,
+          3230
+        ],
+        [
+          441,
+          3307
+        ],
+        [
+          286,
+          3397
+        ],
+        [
+          310,
+          2781
+        ]
+      ],
+      "credit": {
+        "file": "Mosaic_panel_Crucifixion_of_the_North-Western_tympanum.jpg",
+        "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mosaic_panel_Crucifixion_of_the_North-Western_tympanum.jpg",
+        "original_size": [
+          2859,
+          4083
+        ]
+      },
+      "derivative_license": "CC BY-SA 4.0",
+      "source_to_old_pixel_centres": [
+        [
+          0.22338568935427575,
+          0.0,
+          -62.276614310645726
+        ],
+        [
+          0.0,
+          0.22348860257680872,
+          -309.4843904856293
+        ]
+      ],
+      "source_to_new_pixel_centres": [
+        [
+          0.989217635997132,
+          0.0,
+          -274.0650459298944
+        ],
+        [
+          0.0,
+          0.98973523998301,
+          -1368.8594435792156
+        ]
+      ],
+      "output_pixels_per_source_pixel_principal_axes": [
+        0.98973523998301,
+        0.989217635997132
+      ],
+      "normalized_uv_registration_max_error": 2.220446049250313e-16,
+      "alpha_roundtrip_mean_absolute_error_0_255": 0.10756878780134595,
+      "alpha_policy": "Existing alpha bilinearly sampled at identical normalized UVs; no new mask.",
+      "modifications": "Original RGB resampled once at native-or-lower density; original framing, padding, alpha field and occlusions retained. No AI, enlargement, inpainting, sharpening or colour adjustment.",
+      "integration": "Replace map only; set SRGBColorSpace and copy old texture orientation/wrap/filter/UV transform settings. Preserve geometry, material alphaTest/opacity, normal/roughness maps and placement. Do not derive plane aspect from new image dimensions.",
+      "delivery_path": "assets/spilled-blood/whole-refinement/mosaics/north-west-porch.webp",
+      "delivery_bytes": 978590,
+      "delivery_format": "WebP quality95; native-resolution RGB, original alpha retained"
+    }
+  },
+  "skipped": [
+    {
+      "id": "south-porch-front",
+      "mesh_key": "Licensed mosaic: south-porch-front",
+      "reason": "Already source-resolution in entrance-detail; parent retains that map."
+    },
+    {
+      "id": "north-porch-front",
+      "mesh_key": "Licensed mosaic: north-porch-front",
+      "reason": "Superseded by improvednorth-porch-front in artwork.js; do not restore the obsolete oblique map."
+    },
+    {
+      "id": "south-great-gable",
+      "mesh_key": "Licensed mosaic: south-great-gable",
+      "reason": "Mapped south2023 original is 2627x4070; mosaic crop only 329x167 versus existing 516x260 output. Inspected south-middle-full.jpg (7360x4912) cuts off the upper gable. south-gable-detail.jpg depicts the small porch, not this gable. No complete registered higher-detail local source."
+    },
+    {
+      "id": "north-great-gable",
+      "mesh_key": "Licensed mosaic: north-great-gable",
+      "reason": "Both local north2 copies are 3840x2880, mosaic crop 558x215 versus existing 644x289 output. Credited 4320x3240 original was not found locally. Other north views have no verified same-panel registration in this bounded pass."
+    },
+    {
+      "id": "south-west-porch",
+      "mesh_key": "Licensed mosaic: south-west-porch",
+      "reason": "Existing 368x338 rectification already samples near native density from its 1920x2560 original; saved entree (4) duplicate is also 1920x2560. No larger local original found."
+    }
+  ],
+  "validation": "Source and old-map hashes, original dimensions, principal-axis no-upscaling bound, normalized UV registration, alpha round-trip and source coverage assertions passed. PNGs visually inspected separately; no browser integration performed."
+}

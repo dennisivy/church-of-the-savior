@@ -1,0 +1,108 @@
+{
+  "id": "south-porch-front",
+  "source": "south-gable-detail",
+  "note": "Same south-porch panel as the original 94px crop. Commons title/caption misidentifies this photograph as the large southern gable; visible scene is the small south porch. Source pixels, not title, establish placement.",
+  "polygon": [
+    [
+      3815,
+      3109
+    ],
+    [
+      4502,
+      3931
+    ],
+    [
+      4520,
+      4311
+    ],
+    [
+      4336,
+      4237
+    ],
+    [
+      4152,
+      4182
+    ],
+    [
+      3974,
+      4152
+    ],
+    [
+      3809,
+      4139
+    ],
+    [
+      3637,
+      4158
+    ],
+    [
+      3465,
+      4195
+    ],
+    [
+      3281,
+      4256
+    ],
+    [
+      3128,
+      4323
+    ],
+    [
+      3122,
+      3937
+    ]
+  ],
+  "source_crop_bbox_xyxy": [
+    3122,
+    3109,
+    4521,
+    4324
+  ],
+  "source_local_file": "/private/tmp/sb-artwork-hires/south-gable-detail.jpg",
+  "source_sha256": "209404b04c36193530270d59f3dab1ff0db0ef141026dd698ff749a3c102cddd",
+  "source_size": [
+    7360,
+    4912
+  ],
+  "original_pixel_scale_xy": [
+    1,
+    1
+  ],
+  "method": "masked original-resolution crop and area downsampling; no perspective correction",
+  "source_to_output_affine": [
+    [
+      0.365975696926376,
+      0,
+      -1140.576125804146
+    ],
+    [
+      0,
+      0.3662551440329218,
+      -1136.687242798354
+    ]
+  ],
+  "output": "south-mosaic-source.webp",
+  "output_size": [
+    1399,
+    1215
+  ],
+  "target_inner_xyxy": [
+    2,
+    2,
+    513,
+    446
+  ],
+  "output_sha256": "20cb2a08372e49e5a97fff34da62628ad397f6362f64b096caa4468640e92714",
+  "modifications": "Original-resolution crop using prior polygon mask. No upscaling, generated imagery, inpainting or color correction. Separate procedural micro-normal/roughness maps are an inferred material study, not a survey of tesserae.",
+  "credit": {
+    "file": "Cathedral_Of_The_Resurrection._Mosaic_panel_of_the_pedimented_kokoshnik_of_the_southern_facade.jpg",
+    "author": "Александр Байдуков (Aleksandr BAYDUKOV)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_Of_The_Resurrection._Mosaic_panel_of_the_pedimented_kokoshnik_of_the_southern_facade.jpg",
+    "original_size": [
+      7360,
+      4912
+    ]
+  }
+}

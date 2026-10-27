@@ -1,0 +1,23 @@
+{
+  "asset": "central-cross.glb",
+  "source": "spilled-blood/blender/central-cross.blend",
+  "rebuild": "Blender --background --python spilled-blood/blender/build_cross.py",
+  "triangles": 34000,
+  "bytes": 880400,
+  "units": "metres, glTF Y-up; origin globe centre",
+  "crossHeight": 4.5,
+  "crestAboveOrigin": 5.6,
+  "lowestSupportAnchor": -4.4,
+  "status": "provisional reference-informed ornament study",
+  "uncertain": [
+    "Filigree and trefoil exact outline",
+    "Crescent profile",
+    "Support bead and link spacing",
+    "Globe height75.4m inferred from photographs; former C2 was neck junction, not globe"
+  ],
+  "references": [
+    "spilled-blood/research/elements-domes.md",
+    "saved south2023.jpg",
+    "saved c-centre.jpg"
+  ]
+}

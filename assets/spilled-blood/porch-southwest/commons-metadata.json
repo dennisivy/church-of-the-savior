@@ -1,0 +1,105 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "56765221": {
+        "pageid": 56765221,
+        "ns": 6,
+        "title": "File:Cathédrale Saint-Sauveur-sur-le-Sang-Versé - entrée (4).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-03-03 05:11:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathédrale Saint-Sauveur-sur-le-Sang-Versé - entrée (4)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Photographs by Gzen92|Photographs taken with Olympus SP-800UZ by Gzen92|Files with coordinates missing SDC location of creation|Russia photographs taken on 2017-02-17|Photographs taken on 2017-02-17 by Gzen92|Porch of the Church of the Saviour on the Blood|Photographs of cathédrale by Gzen92|Photographs taken in Saint-Pétersbourg by Gzen92",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "59.940139",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "30.328080",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Entrée de la cathédrale Saint-Sauveur-sur-le-Sang-Versé à Saint-Pétersbourg (Russie).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-02-17 16:08:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gzen92\" title=\"User:Gzen92\">Gzen92</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
